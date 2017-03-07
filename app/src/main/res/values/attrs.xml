@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyImageView">
+        <attr name="MyImageViewHeight" format="dimension"/>
+        <attr name="MyImageViewWidth" format="dimension"/>
+        <attr name="MyImageViewColor" format="color"/>
+        <attr name="MyText" format="string"/>
+        <attr name="MyTextSize" format="dimension"/>
+        <attr name="MyTextColor" format="color"/>
+        <attr name="MyImageViewSrc" format="integer"/>
+    </declare-styleable>
+    
+    <declare-styleable name="PieChart">
+        <attr name="showText" format="boolean"/>
+        <attr name="titleText" format="string"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="titleTextColor" format="color"/>
+        <attr name="labelPosition" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="MyCircleSeekBar">
+        <attr name="MyCircleSeekBarText" format="string"/>
+        <attr name="MyCircleSeekBarTextSize" format="dimension"/>
+        <attr name="MyCircleSeekBarTextColor" format="color"/>
+
+    </declare-styleable>
+
+
+
+
+</resources>
